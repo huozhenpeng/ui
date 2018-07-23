@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/title_layout" />
+
+    <com.example.huozhenpeng.interviewui.leftrightbar.ScrollViewDragHelper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="@dimen/px2dp_42"
+        android:paddingRight="@dimen/px2dp_42" >
+
+        <com.example.huozhenpeng.interviewui.leftrightbar.ScrollBarPic
+            android:id="@+id/scrollBarPic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2dp_500" />
+    </com.example.huozhenpeng.interviewui.leftrightbar.ScrollViewDragHelper>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_2"
+        android:background="#d4d4d4" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+    </ListView>
+
+</LinearLayout>

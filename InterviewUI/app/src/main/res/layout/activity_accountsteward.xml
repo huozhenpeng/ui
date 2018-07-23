@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:special="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_96"
+        android:background="#517eb0" >
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="@dimen/px2dp_76"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
+            />
+
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="资产配置分析"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/px2sp_34" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px2dp_60"
+        android:layout_width="@dimen/px2dp_400"
+        android:layout_height="@dimen/px2dp_400"
+        android:orientation="horizontal" >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px2dp_400">
+            <com.example.huozhenpeng.interviewui.barlink.RotationView
+                android:id="@+id/rotateView"
+                android:layout_width="@dimen/px2dp_400"
+                android:layout_height="@dimen/px2dp_400" />
+            <com.example.huozhenpeng.interviewui.barlink.TextView
+                android:gravity="center_horizontal"
+                android:layout_width="@dimen/px2dp_300"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="@dimen/px2sp_42"
+                android:textColor="#333333"
+                android:layout_centerInParent="true"
+                android:id="@+id/tv_money"
+                special:typeface="true"
+
+                />
+            <LinearLayout
+                android:layout_width="@dimen/px2dp_300"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_money"
+                >
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/tv_amounttips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="总资产"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/px2sp_24"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.example.huozhenpeng.interviewui.barlink.ArrowView
+            android:id="@+id/arrowView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:layout_marginTop="@dimen/px2dp_56"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:id="@+id/listview"
+            ></ListView>
+
+    </FrameLayout>
+
+</LinearLayout>

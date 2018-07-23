@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="checked" format="boolean" />
+    <attr name="img_checked" format="reference" />
+    <attr name="img_unchecked" format="reference" />
+    <attr name="textcolor_checked" format="color" />
+    <attr name="textcolor_unchecked" format="color" />
+    <attr name="text_size" format="dimension" />
+    <attr name="text_content" format="string" />
+
+    <declare-styleable name="custom_radio">
+        <attr name="checked" />
+        <attr name="img_checked" />
+        <attr name="img_unchecked" />
+        <attr name="textcolor_checked" />
+        <attr name="textcolor_unchecked" />
+        <attr name="text_size" />
+        <attr name="text_content" />
+    </declare-styleable>
+    <declare-styleable name="textview">
+        <attr name="typeface" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <attr name="topcolor" format="color" />
+    <attr name="strokecolor" format="color" />
+    <attr name="stroke" format="dimension" />
+    <attr name="radiuss" format="dimension" />
+    <attr name="bigringradius" format="dimension" />
+    <attr name="paintcolor" format="color" />
+    <attr name="topcolor2" format="color" />
+    <attr name="bigringcolor" format="color" />
+    <declare-styleable name="percentage">
+        <attr name="bigringcolor" />
+        <attr name="topcolor" />
+        <attr name="strokecolor" />
+        <attr name="stroke" />
+        <attr name="radiuss" />
+        <attr name="bigringradius" />
+        <attr name="paintcolor" />
+        <attr name="topcolor2" />
+    </declare-styleable>
+    <declare-styleable name="message">
+        <attr name="text" format="string"></attr>
+        <attr name="radius1" format="dimension"></attr>
+        <attr name="textsize1" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="my_button">
+        <attr name="imgsrc_button" format="reference"></attr>
+        <attr name="text_button_content" format="string"></attr>
+        <attr name="text_button_size" format="dimension"></attr>
+        <attr name="text_button_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="my_rl">
+        <attr name="ll_name" format="string"></attr>
+        <attr name="ll_value" format="string"></attr>
+        <attr name="ll_mark" format="string"></attr>
+        <attr name="ll_mark_bg" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="investmentBarPic">
+        <attr name="leftPadding" format="dimension"></attr>
+        <attr name="perBarPadding" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="scrollBarPic">
+        <attr name="leftPadding1" format="dimension"></attr>
+        <attr name="righPadding1" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="keyboard">
+        <attr name="xml" format="reference" />
+        <attr name="randomkeys" format="reference|boolean"></attr>
+    </declare-styleable>
+
+</resources>

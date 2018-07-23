@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/centre_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2dp_96">
+
+            <ImageView
+                android:id="@+id/left_img"
+                android:layout_width="@dimen/px2dp_56"
+                android:layout_height="@dimen/px2dp_70"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@mipmap/arrow_back" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/default_value"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/px2sp_34"
+                android:transitionName="robot" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/pic_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px2dp_188"
+            android:layout_marginRight="@dimen/px2dp_188"
+            android:layout_marginTop="@dimen/px2dp_40"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <com.example.huozhenpeng.interviewui.linepic.CircleImageView
+                android:id="@+id/current_img1"
+                android:layout_width="@dimen/px2dp_80"
+                android:layout_height="@dimen/px2dp_80"
+                android:src="@mipmap/mr_icon"
+                custom:border_color="#ffffff"
+                custom:border_width="@dimen/px2dp_4"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px2dp_1"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/iv_conversion"
+                android:layout_width="@dimen/px2dp_60"
+                android:layout_height="@dimen/px2dp_60"
+                android:scaleType="center"
+                android:src="@mipmap/conversion_img" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px2dp_1"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:background="#000000" />
+
+            <com.example.huozhenpeng.interviewui.linepic.CircleImageView
+                android:id="@+id/current_img2"
+                android:layout_width="@dimen/px2dp_80"
+                android:layout_height="@dimen/px2dp_80"
+                custom:border_color="#ffffff"
+                custom:border_width="@dimen/px2dp_4"
+                android:src="@mipmap/mr_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px2dp_188"
+            android:layout_marginRight="@dimen/px2dp_188"
+            android:layout_marginTop="@dimen/px2dp_24"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/code_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/px2dp_10"
+                android:text="@string/default_value"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/px2dp_28" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px2dp_1"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/code_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/px2dp_10"
+                android:text="@string/default_value"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/px2dp_28" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/exchange_money_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px2dp_20"
+            android:text="@string/default_value"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/px2dp_60" />
+
+        <TextView
+            android:id="@+id/time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px2dp_16"
+            android:text="@string/default_value"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="@dimen/px2dp_28"
+            android:textSize="@dimen/px2dp_28" />
+    </LinearLayout>
+
+    <include layout="@layout/activity_curvebottom"
+        />
+</LinearLayout>

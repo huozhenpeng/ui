@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InterviewUI</string>
+    <string name="default_value">--</string>
+    <string name="default_amount">0</string>
+    <string name="default_unit_money">￥0.00</string>
+    <string name="default_numerical">0</string>
+
+
+    <string name="monday">一</string>
+    <string name="tuseday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <string name="sunday">日</string>
+</resources>

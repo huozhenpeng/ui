@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/px2dp_26"
+    android:layout_height="@dimen/px2dp_26" >
+
+    <View
+        android:layout_centerVertical="true"
+        android:background="#999999"
+        android:layout_width="@dimen/px2dp_18"
+        android:layout_height="@dimen/px2dp_2" />
+
+    <View
+        android:layout_centerVertical="true"
+        android:background="#999999"
+        android:layout_width="@dimen/px2dp_18"
+        android:layout_height="@dimen/px2dp_2"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

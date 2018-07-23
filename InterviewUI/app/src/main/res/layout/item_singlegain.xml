@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_86"
+        android:paddingLeft="@dimen/px2dp_28"
+        android:paddingRight="@dimen/px2dp_28" >
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_proname"
+            android:layout_width="@dimen/px2dp_456"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="米多利产品米多利产品米多利产品米多利产品米多利产品米多利产品"
+            android:textColor="#666666"
+            android:textSize="@dimen/px2sp_32" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="23.32"
+            android:textColor="#666666"
+            android:textSize="@dimen/px2sp_34" />
+
+        <TextView
+            android:layout_marginRight="@dimen/px2dp_6"
+            android:text="￥"
+            android:layout_alignBaseline="@id/tv_money"
+            android:layout_toLeftOf="@id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#666666"
+            android:textSize="@dimen/px2sp_22"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_2"
+        android:layout_marginLeft="@dimen/px2dp_28"
+        android:background="#ffffff"
+        />
+
+</LinearLayout>

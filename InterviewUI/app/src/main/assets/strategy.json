@@ -1,0 +1,26 @@
+[
+  {
+    "assetType" : 1,
+    "groupYesterdayAsset" : 1234,
+    "groupYesterdayProfit" : 0,
+    "percent" : 25
+  },
+  {
+    "assetType" : 1,
+    "groupYesterdayAsset" : 1234,
+    "groupYesterdayProfit" : 0,
+    "percent" : 25
+  },
+  {
+    "assetType" : 1,
+    "groupYesterdayAsset" : 1234,
+    "groupYesterdayProfit" : 0,
+    "percent" : 25
+  },
+  {
+    "assetType" : 1,
+    "groupYesterdayAsset" : 1234,
+    "groupYesterdayProfit" : 0,
+    "percent" : 25
+  }
+]
