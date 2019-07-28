@@ -171,6 +171,7 @@ public class RotationView extends android.support.v7.widget.AppCompatImageView {
 			if(datas!=null&&datas.size()>1)
 			{
 				double currentAngle = parseFormat(getAngle(event.getX(), event.getY()));
+				Log.e("abc",currentAngle+"");
 				double deltaDegrees=startAngle - currentAngle;
 				totalRotation=totalRotation%360;
 				//1. 控制角度旋转
